@@ -34,7 +34,7 @@ export async function ambilDaftarProduk() {
   cuplikanKueri.forEach((dok) => {
     hasil.push({
       id: dok.id, 
-      nama: dok.data().nana,
+      nama: dok.data().nama,
       harga: dok.data().harga,
       stok: dok.data().stok,
     });
